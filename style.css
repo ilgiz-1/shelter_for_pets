@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.welcome {
+  height: 919px;
+  background: url(./img/noise_transparent@2x.png), radial-gradient(195.87% 111.8% at 0% 0%, rgb(91, 72, 58), rgb(38, 36, 37) 100%), rgb(33, 31, 32);
+}
+.welcome h2 {
+  color: rgb(241, 205, 179);
+  font-family: Georgia;
+  font-size: 32px;
+  font-weight: 400;
+}
+.welcome .paragraph__title {
+  color: rgb(255, 255, 255);
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+}
+.welcome .header {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome .header__title {
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.welcome .header__nav {
+  margin-top: 46px;
+  margin-right: 40px;
+}
+.welcome .header__list {
+  display: flex;
+  gap: 35px;
+}
+.welcome .list__item {
+  color: rgb(205, 205, 205);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+}
+.welcome .title {
+  display: flex;
+  justify-content: space-evenly;
+}
+.welcome .text {
+  margin-left: 40px;
+  margin-top: 340px;
+}
+.welcome .heading {
+  width: 310px;
+  height: 114px;
+  color: rgb(255, 255, 255);
+  font-family: Georgia;
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.welcome .title__text {
+  color: rgb(205, 205, 205);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  width: 460px;
+  height: 72px;
+  margin-bottom: 40px;
+}
+.welcome .title__btn {
+  border-radius: 100px;
+  background: rgb(241, 205, 179);
+  width: 207px;
+  height: 52px;
+  border: none;
+  color: rgb(41, 41, 41);
+  font-family: Georgia;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.welcome .img__title {
+  margin-left: 40px;
+  margin-top: 110px;
+}
+
+.about {
+  height: 588px;
+}
+.about .wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 215px 100px 215px;
+  height: 410px;
+}
+.about h2 {
+  width: 350px;
+  height: 90px;
+  color: rgb(84, 84, 84);
+  font-family: Georgia;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 6%;
+  margin-bottom: 25px;
+}
+.about .text__high {
+  width: 430px;
+  height: 96px;
+  color: rgb(76, 76, 76);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 25px;
+}
+.about .text__low {
+  width: 430px;
+  height: 145px;
+  color: rgb(76, 76, 76);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 160%;
+}/*# sourceMappingURL=style.css.map */
