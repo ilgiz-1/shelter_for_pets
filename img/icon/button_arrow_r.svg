@@ -1,0 +1,9 @@
+<svg width="52" height="52" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <desc>Created with Pixso.</desc>
+
+ <g>
+  <title>Layer 1</title>
+  <path fill-rule="nonzero" fill="#444444" d="m19,27l0,-2l11,0l0,-2l3,3l-3,3l0,-2l-11,0z" id="Arrow"/>
+  <rect transform="rotate(180 26.1251 25.7083)" stroke="#000000" x="1.3334" y="1.125" stroke-width="2" height="49.16667" width="49.58334" rx="25" id="button_arrow"/>
+ </g>
+</svg>

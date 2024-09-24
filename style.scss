@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 a {
     color: black;
     text-decoration: none;
@@ -14,6 +18,15 @@ ul {
     list-style-type: none;
 }
 
+button {
+    color: rgb(41, 41, 41);
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+// welcome
 .welcome {
     height: 919px;
 
@@ -88,9 +101,7 @@ ul {
         height: 52px;
         border:none;
         color: rgb(41, 41, 41);
-        font-family: Georgia;
-        font-size: 17px;
-        font-weight: 400;
+        letter-spacing:  1px;
         cursor: pointer;
     }
     .img__title {
@@ -143,4 +154,74 @@ ul {
         line-height: 160%;
     }
 
+}   
+
+.choice {
+    height: 880px;
+    background: rgb(246, 246, 246);
+   
+   .heading {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    color: rgb(84, 84, 84);
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1px;
+   }
+    .container {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .card {
+            background: rgb(250, 250, 250);
+            width: 270px;
+            height: 435px;
+            color: rgb(84, 84, 84);
+            font-family: Georgia;
+            font-size: 20px;
+            font-weight: 400;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            h3 {
+               padding-top: 30px;
+            }
+
+            button {
+                width: 187px;
+                height: 52px;
+                margin-top: 30px;
+                border: 2px solid rgb(0, 0, 0);
+                border-radius: 100px;
+                background: rgb(250, 250, 250);
+            }
+        }
+        
+        .button__arrow {
+            width: 52px;
+            height: 52px;
+            margin: 40px;
+            cursor: pointer;
+        }
+    }
 }
+
+.help {
+    height: 610px;
+
+    .container {   
+        height: 500px;
+        margin: 80px 40px 100px;
+        background-color: seagreen;
+    }
+    
+}
+
+
+
